@@ -7,7 +7,7 @@ model = xgb.XGBRegressor()
 model.load_model('xgb_model.json')
 
 #Caching the model for faster loading
-@st.cache_resource
+@st.cache(allow_output_mutation=True)
 
 
 # Define the prediction function
