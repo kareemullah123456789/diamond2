@@ -1,0 +1,5 @@
+xgboost
+scikit-learn
+pandas
+streamlit==1.10.0
+altair==4
